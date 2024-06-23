@@ -1,0 +1,114 @@
+body{
+    background-color:hsl(217, 54%, 11%) ;
+    display:grid;
+    position:center;
+    font-family:outfit;
+}
+
+.page{
+    display: grid;
+    position:center;
+    margin-left: 20%;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    padding:20px;
+    border-radius: 10px;
+ 
+}
+
+.main-image{
+    width:100%;
+    margin-bottom:20px;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+.back{
+    position:absolute;
+    background-color: hsla(215, 51%, 70%,.6);
+    width :23.5%;
+    height: 46.5%;
+    visibility: hidden;
+    
+}
+
+.main-image:hover:back{
+    position:absolute;
+    background-color: hsla(215, 51%, 70%,.6);
+    width:23.5%;
+    height: 46.5%;
+    visibility: visible;
+}
+
+.view{
+    margin-top: 45%;
+    margin-left: 45%;
+    opacity: 1;
+    
+}
+
+    .text2{
+        display:flex;
+        flex-direction: row;
+        gap:80px;
+    }
+
+    
+    .eth,.time{
+        display:flex;
+        flex-direction: row;
+        color:hsl(215, 51%, 70%);
+    }
+
+    .tiny{
+       height: 20px;
+       margin-top: 15px;
+       margin-right: 5px;
+    }
+
+    hr{
+        width: 100%;
+        background-color: hsl(215, 51%, 70%);
+        border-color: hsl(215, 51%, 70%);
+        height:0.5px;
+        border:0;
+    }
+
+    #pro{
+        border:2px solid hsl(0, 0%, 100%);
+        border-radius:50%;
+        width:40px;
+    }
+
+    .footer{
+        display:flex;
+        flex-direction: row;
+        gap:20px;
+    }
+
+    .text3{
+        display:flex;
+        flex-direction: row; 
+        gap:10px;
+    }
+
+    .equi{
+        color:hsl(0, 0%, 100%);
+        font-size:18px;
+        font-weight: 600;
+    }
+    
+    .text1{
+        color:hsl(215, 51%, 70%);
+        font-weight:300;
+    
+    }
+
+    .creation{
+        color:hsl(215, 51%, 70%)
+    }
+
+    .jules{
+        color:white;
+    }
